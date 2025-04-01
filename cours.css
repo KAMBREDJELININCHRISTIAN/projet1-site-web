@@ -1,0 +1,87 @@
+   
+main {
+    padding: 20px;
+    background-color: #f0f4f8;
+}
+
+main section {
+    margin-bottom: 40px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+main section h2 {
+    font-size: 24px;
+    color: #007;
+    border-bottom: 2px solid #007;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+main article {
+    margin-bottom: 20px;
+}
+
+main article h3 {
+    font-size: 20px;
+    color: #0056b3;
+    margin-bottom: 10px;
+}
+
+main article ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+main article ul li {
+    margin-bottom: 15px;
+    padding-left: 15px;
+    position: relative;
+}
+
+main article ul li h4 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+main article ul ul {
+    margin-left: 20px;
+}
+
+main article ul ul li {
+    margin-bottom: 10px;
+}
+
+main article ul ul li a {
+    text-decoration: none;
+    color: #007;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+    background-color: #e6f7ff;
+}
+
+main article ul ul li a:hover {
+    background-color: #007;
+    color: #fff;
+}
+main article ul li:before {
+    content: '•';
+    color: #007;
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+main article ul ul li a {
+    margin-left: 10px;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+    background: #007;
+}

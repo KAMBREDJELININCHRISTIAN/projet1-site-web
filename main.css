@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: century,sans-serif;
+}
+header {
+    background-image: url('imagea.jpg');
+    height: 80vh; 
+    background-size: cover; 
+    background-position: center; 
+    position: relative; 
+    filter: brightness(1.5); 
+}
+.logo img {
+    height: 50px;  
+    width: auto; 
+    position: absolute;
+    top: 10px; 
+    left: 30px; 
+}
+.logo1 {
+    position: absolute;
+    top: 10px;
+    right: 30px; 
+}
+.logo1 img {
+    height: 50px; 
+    width: auto;
+}
+.menu {
+    list-style: none; 
+    display: flex; 
+    justify-content: center; 
+    margin: 20px 0; 
+    padding: 0; 
+    ;
+}
+.menu li {
+    display: inline-block; 
+}
+.menu li a {
+    text-decoration: none;
+    color: #000; 
+    font-weight: bold; 
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+.menu li a:hover {
+    background-color: #007; 
+    color: #fff; 
+}
+.dropdown ul {
+    list-style: none; 
+    display: none; 
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    background-color: #444444; 
+    padding: 0;
+    margin: 0;
+}
+.dropdown:hover ul {
+    display: block; 
+}
+.dropdown ul li a {
+    display: block; 
+    color: #fff; 
+    padding: 10px;
+}
+.dropdown ul li a:hover {
+    background-color: #555; 
+}
+.titre {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    text-align: center;
+}
+
+.titre h1 {
+    color: #fff; 
+    font-size: 3rem; 
+    text-transform: uppercase; 
+}
+.principale {
+    background-color: #BA6; 
+    padding: 12px 10px;
+    display: flex;
+    justify-content: center;
+    filter: brightness(1.2);
+}
+footer {
+    background-color: rgb(108, 187, 102); 
+    color: white; 
+    text-align: center;
+    padding: 20px 0; 
+    filter: brightness(1.5);
+}
+
+footer ul {
+    list-style: none; 
+    padding: 10px;
+    margin: 10px;
+    display: flex; 
+    justify-content: center; 
+    gap: 60px; 
+}
+
+footer li {
+    display: inline;
+}
+
+footer a {
+    color: white; 
+    text-decoration: none; 
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    color: #ffcc00;
+}
+
